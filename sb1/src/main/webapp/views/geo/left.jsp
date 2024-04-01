@@ -1,0 +1,27 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: takgyun
+  Date: 2024/03/27
+  Time: 9:55 AM
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
+<html>
+<head>
+    <title>Geo</title>
+</head>
+<body>
+<ul class="nav nav-pills flex-column">
+    <li class="nav-item">
+        <a class="nav-link" href="<c:url value="/geo/geo1"/>">Geo1</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="<c:url value="/geo/geo2"/>">Geo2</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="<c:url value="/geo/geo3"/>">Geo3</a>
+    </li>
+</ul>
+</body>
+</html>
