@@ -15,7 +15,7 @@ import org.aspectj.lang.annotation.Before;
 // AOP 를 위한 Aspect 설정
 @Aspect
 public class LoggerAdvice {
-    @Around("execution(* com.*.*.*Service.*(..))")
+    @Around("execution(* com.*.*.*.*Service.*(..))")
     public Object around(ProceedingJoinPoint process){
         Object result = null;
         Signature si = process.getSignature();

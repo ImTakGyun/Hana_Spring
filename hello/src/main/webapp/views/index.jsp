@@ -12,5 +12,6 @@
 </head>
 <body>
     <h1>Hello</h1>
+    <h2>${data}</h2>
 </body>
 </html>
